@@ -61,9 +61,11 @@ Connects with Laravel API
 Displays posts, categories, and customer info
 
 Authentication and dashboard
+```bash
 cd frontend
 npm install
 ng serve
+```
 Access: http://localhost:4200
 
 3️⃣ Ionic Mobile App
@@ -81,14 +83,17 @@ Customers can browse posts and categories
 Login/Register and profile management
 
 Installation
+```bash
 cd mobile
 npm install
 ionic serve
-# or run on Android/iOS device
+```
+# run on Android/iOS device
+```bash
 ionic capacitor add android
 ionic capacitor add ios
 ionic capacitor run android
-
+```
 Technologies Used
 
 Backend: Laravel 10, PHP 8, MySQL
@@ -107,6 +112,5 @@ Angular Frontend: GitHub
 
 Ionic Mobile App: GitHub
 
-Installation
 # TourismSystem
 >>>>>>> 54f85a270face98eb5234ff23d101e78ce7c33d2
